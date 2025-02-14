@@ -21,10 +21,6 @@ int main() {
                 printf("Division by zero!\n");
             }
             break;
-        default:
-            printf("Error: Invalid operator!\n");
-            break;
-    }
 
     return 0;
 }
