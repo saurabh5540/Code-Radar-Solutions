@@ -17,9 +17,9 @@ int main() {
     }
 
     if (isPrime)
-        printf("Prime\n");
+        printf("Prime");
     else
-        printf("Not Prime\n");
+        printf("Not Prime");
 
     return 0;
 }
