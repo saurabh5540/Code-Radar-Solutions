@@ -2,12 +2,7 @@
 
 int main() {
     int num1, num2;
-    char operator;
-    
-    // Take input
-    printf("Enter two integers and an operator (+, -, *, /): ");
-    scanf("%d %d %c", &num1, &num2, &operator);
-    
+    char operator; 
     switch (operator) {
         case '+':
             printf("Result: %d\n", num1 + num2);
