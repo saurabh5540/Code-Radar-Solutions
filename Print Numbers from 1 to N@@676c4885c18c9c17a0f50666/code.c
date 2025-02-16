@@ -1,19 +1,14 @@
 #include <stdio.h>
-
 int main() {
-    int N;
-    
-    // Taking input for N
-    scanf("%d", &N);
-
-    // Loop to print numbers from 1 to N
-    for (int i = 1; i <= N; i++) {
-        printf("%d", i);
-        if (i < N) {
-            printf(" "); // Print space between numbers
+    int a;
+    scanf("%d", &a);
+    for (int i = 1; i <= a; i++) {
+        printf("%d");
+        if (i < a) {
+            printf(" "); 
         }
     }
 
-    printf("\n"); // Newline after printing all numbers
+    printf("\n");
     return 0;
 }
