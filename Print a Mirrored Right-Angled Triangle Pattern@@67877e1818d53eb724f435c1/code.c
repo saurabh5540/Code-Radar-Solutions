@@ -1,25 +1,19 @@
- #include <stdio.h>
-
-int main() {
-    int N;
-
-    // Input the number of rows
-    printf("Enter the number of rows: ");
-    scanf("%d", &N);
-
-    // Loop to print the mirrored right-angled triangle
-    for (int i = 1; i <= N; i++) {
-        // Print spaces
-        for (int j = 1; j <= N - i; j++) {
+#include <stdio.h>
+int main() 
+{
+    int i,j,a,k;
+    scanf("%d", &a);
+    for(i=1;i<=a;i++)
+    {
+        for(k=1;k<=a-i;k++)
+        {
             printf(" ");
         }
-        // Print stars
-        for (int k = 1; k <= i; k++) {
+        for(j=1;j<=i;j++)
+        {
             printf("*");
         }
-        // Move to the next line
         printf("\n");
     }
-
     return 0;
 }
