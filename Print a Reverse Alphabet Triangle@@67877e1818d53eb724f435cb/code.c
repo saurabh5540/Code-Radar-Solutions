@@ -11,7 +11,7 @@ int main(){
             }
             current_char++;
         }
-        printf("\n");
+        printf("/n");
     }
     return 0;
 }
