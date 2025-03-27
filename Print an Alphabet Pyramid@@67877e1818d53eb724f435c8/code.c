@@ -2,7 +2,7 @@
 
 int main() {
     int N;
-    scanf("%d", &N);  // Read the number of rows
+    scanf("%d", &N); 
     
     for (int i = 1; i <= N; i++) {
         char current_char = 'A';
