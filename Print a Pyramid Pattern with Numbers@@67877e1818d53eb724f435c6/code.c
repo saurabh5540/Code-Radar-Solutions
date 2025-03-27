@@ -11,7 +11,7 @@ int main(){
             if(j<i){
                 printf(" ");
             }
-        }
+        }printf("\n");
     }
-    printf("\n");
+    return 0;
 }
