@@ -19,10 +19,14 @@ int isPrime(int num){
 int main(){
     int n;
     scanf("%d", &n);
-    while(n--){
+    while (n--) {
         int num;
-        scanf("%d", &num);
+        if (scanf("%d", &num) != 1) { // Validate input reading
+            printf("Invalid input.\n");
+            return 1;
+        }
         printf("%d\n", isPrime(num));
     }
+    
     return 0;
 }
