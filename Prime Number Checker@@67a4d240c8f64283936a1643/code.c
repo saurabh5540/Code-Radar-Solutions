@@ -17,9 +17,9 @@ int isPrime(int num){
     return 1; 
 }
 int main(){
-    int n;
+    int t;
     scanf("%d", &n);
-    while(n--){
+    while(t--){
         int num;
         scanf("%d", &num);
         printf("%d\n", isPrime(num));
