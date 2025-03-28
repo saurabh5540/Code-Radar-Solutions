@@ -21,10 +21,7 @@ void factorialRange(int start, int end) {
     for (int i = start; i <= end; i++) {
         printf("%lld\n", factorial(i));
     }
-}
-
-int main() {
-    int start, end;
+     int start, end;
     
     // Read the start and end of the range
     scanf("%d %d", &start, &end);
