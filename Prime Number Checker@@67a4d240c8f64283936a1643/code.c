@@ -20,7 +20,7 @@ int isPrime(int num){
 int main(){
     int n;
     scanf("%d", &n);
-    while(t--){
+    while(n--){
         int num;
         scanf("%d", &num);
         printf("%d\n", isPrime(num));
