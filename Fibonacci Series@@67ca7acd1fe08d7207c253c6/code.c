@@ -1,27 +1,17 @@
 #include <stdio.h>
-void generateFibonacci(int n) {
-    if (n <= 0) {
-        printf("Invalid input\n");
-        return;
+
+void fibonacciSeries(int n){
+    int a=0,b=1,sum;
+    if(n>=1){
+        printf("%d ",a);
     }
-    int first = 0, second = 1, next;
-    for (int i = 1; i <= n; i++) {
-        if (i == 1) {
-            printf("%d", first);
-        } else if (i == 2) {
-            printf(" %d", second);
-        } else {
-            next = first + second;
-            printf(" %d", next);
-            first = second;
-            second = next;
-        }
+    if(n>=2){
+        printf("%d ",b);
     }
-    printf("\n");
-}
-int main() {
-    int n;
-    scanf("%d", &n); 
-    generateFibonacci(n);
-    return 0;
+    for(int i=3;i<=n;i++){
+        sum=a+b;
+        printf("%d ",sum);
+        a=b;
+        b=sum;
+    }
 }
