@@ -1,42 +1,14 @@
 #include <stdio.h>
 void fibonacciSeries(int n){
-    int a=0,b=1,sum;
+    int a=0, b=1, sum;
     if(n>=1){
         printf("%d ",a);
-    }if(n>=2){
+    }if(n<=2){
         printf("%d ",b);
-    }for(int i=3;i<=n;i++){
-        sum = a+b;
+    }for(int i=1;i<=n,i++){
+        sum=a+b;
         printf("%d ",sum);
         a=b;
         b=sum;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
