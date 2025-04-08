@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int min(int arr[],int n){
     int min=arr[0];
     for(int i=1;i<n;i++){
@@ -25,7 +24,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d", &arr[i]);
     }
-
     printf("%d %d" ,min(arr,n),max(arr,n));
     return 0;
-}
+} 
